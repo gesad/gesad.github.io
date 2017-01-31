@@ -1,6 +1,6 @@
-name: Bedford Lab Research
-description: Science updates on evolution, epidemiology and immunology from the Bedford lab at the Fred Hutch
-url: http://bedford.io
+name: GESAD
+description: Grupo de Engenharia de Software e Sistemas Distribuídos
+url: http://gesad.uece.br/
 
 markdown: redcarpet
 permalink: /:categories/:title/
@@ -40,7 +40,7 @@ exclude:
   - "*.trees"
   - "*.txt"
   - "*.zip"
-  - "*.gz"    
+  - "*.gz"
   - "Gemfile"
   - "Gemfile.lock"
   - "projects/nextflu/auspice/index.html"

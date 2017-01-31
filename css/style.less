@@ -49,8 +49,10 @@ h6, .h6 { font-size: ceil(@font-size-base * 0.85); }  /* ~12px */
 /* general */
 
 .container {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 h1,
@@ -359,4 +361,325 @@ blockquote {
     -webkit-transform: scale(1.0);
     opacity: 0;
   }
+}
+
+
+/* Custom CSS */
+
+/* Override bootstrap css */
+* {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'ProximaNova-Regular', 'HelveticaNeue', 'Helvetica Neue', 'HelveticaNeueRoman', 'HelveticaNeue-Roman', 'Helvetica Neue Roman', 'TeXGyreHerosRegular', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #565656;
+    background-color: #fff;
+}
+
+a {
+    color: #670a0a;
+    text-decoration: none
+}
+
+a:hover {
+    color: #122338;
+    text-decoration: underline;
+}
+
+
+
+/* Style for the header */
+
+.mainnav {
+    background: #800000;
+    border-top: 1px solid #7d1717;
+    border-bottom: 1px solid #651110;
+    border-top: 1px solid #9a0000;
+    border-bottom: 1px solid #670000;
+    margin: 0;
+    white-space: nowrap
+}
+.mainnav .col12 {
+    text-align: center;
+    float: none;
+    width: 100%;
+    margin-left: 0
+}
+.mainnav a {
+    color: #fff
+}
+.mainnav ul {
+    max-width: 90%;
+    margin: 0 auto
+}
+@media only screen and (max-width: 1249px) {
+    .mainnav ul {
+        max-width: 100%
+    }
+}
+.mainnav li a {
+    position: relative;
+    z-index: 3000;
+    bottom: -1px;
+    margin-top: -1px;
+    display: inline-block;
+    height: 1.125em;
+    padding: 1em 2em;
+    line-height: 1.25em;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -ms-transition-duration: 0s;
+    border-bottom: 1px solid transparent
+}
+@media only screen and (max-width: 979px) {
+    .mainnav li a {
+        padding: 1em 1.25em
+    }
+}
+@media only screen and (max-width: 874px) {
+    .mainnav li a {
+        padding: 1em .75em
+    }
+}
+.mainnav li a:hover,
+.mainnav li a:focus {
+    text-decoration: none;
+}
+.mainnav li:active a:hover,
+.mainnav li:active a:focus {
+    text-decoration: underline;
+}
+#about #navhome a,
+#wgesad #navwgesad a,
+#blog #navblog a,
+#news #navnews a,
+#team #navteam a,
+#projects #navprojects a,
+#papers #navpapers a,
+.nav.main li.active a,
+.nav.main li a:hover,
+.nav.main li a:focus {
+    background: #fff;
+    color: #122338;
+    border-bottom: 1px solid transparent;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -ms-transition-duration: 0s
+}
+
+#header-div {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+#header-div #main-logo-backgroud {
+    background: #1B2C4D;
+    border-top: 1px solid #122338;
+    border-bottom: 1px solid #122338;
+}
+
+#header-div #main-logo-backgroud #gesad-logo {
+    width: 40%;
+    text-indent: -9999em;
+    content: url('../images/gesad.png');
+    display: block;
+    text-indent: -9999em;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-transition: none;
+    transition: none;
+}
+
+#header-div .nav li {
+    display: inline;
+    list-style-type: none
+}
+
+#header-div .nav.main {
+    float: none
+}
+
+#header-div .mainnav {
+    background: #1B2C4D;
+    border-top: 1px solid #122338;
+    border-bottom: 1px solid #122338;
+    border-top: 1px solid #122338;
+    border-bottom: 1px solid #122338;
+    margin: 0;
+    white-space: nowrap
+}
+#header-div .mainnav #menu-div {
+    text-align: center;
+    float: none;
+    width: 100%;
+    margin-left: 0
+}
+
+
+#header-div .mainnav ul {
+    max-width: 90%;
+    margin: 0 auto
+}
+#header-div .mainnav li a {
+    position: relative;
+    z-index: 3000;
+    bottom: -1px;
+    margin-top: -1px;
+    display: inline-block;
+    height: 1.125em;
+    padding: 1em 2em;
+    line-height: 1.25em;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -ms-transition-duration: 0s;
+    border-bottom: 1px solid transparent
+}
+#header-div .mainnav li a:hover,
+#header-div .mainnav li a:focus {
+    text-decoration: none
+}
+
+#header-div .mainnav li:active a:hover,
+#header-div .mainnav li:active a:focus {
+    text-decoration: underline
+}
+
+
+
+
+/* Style for the footer */
+#footer-div {
+    background: #403f3f;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #403f3f), color-stop(100%, #383737));
+    background: -webkit-linear-gradient(top, #403f3f 0, #383737 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #403f3f), to(#383737));
+    background: linear-gradient(top, #403f3f 0, #383737 100%)
+}
+
+#footer-div #footer-logo {
+    width: 30%;
+    text-indent: -9999em;
+    content: url('../images/gesad-uece.png');
+    margin: auto;
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    opacity: .6;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+#footer-div ul,
+#footer-div p {
+    font-size: .875em;
+    color: #d3d1d1;
+    line-height: 2em
+}
+#footer-div a {
+    color: #d3d1d1
+}
+
+#footer-div p.copyright {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.5%;
+    min-height: 0;
+    height: auto;
+    line-height: 1em;
+    font-size: .75em;
+    opacity: .5
+}
+
+
+#footer-div p,
+.footer p,
+#footer-div ul,
+.footer ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: .77777778em;
+    letter-spacing: normal;
+    padding: 0 !important;
+    margin-bottom: 0
+}
+@media (min-width: 992px) {
+    #footer-div p,
+    .footer p,
+    #footer-div ul,
+    .footer ul {
+        font-size: .61111111em;
+        padding-left: 15px !important;
+        padding-right: 15px !important
+    }
+}
+@media (min-width: 1200px) {
+    #footer-div p,
+    .footer p,
+    #footer-div ul,
+    .footer ul {
+        font-size: .66666667em
+    }
+}
+#footer-div p.copyright,
+.footer p.copyright {
+    font-size: .66666667em
+}
+
+.row-footer {}
+
+#footer-div .row-footer:last-child {
+    max-width: 100% !important;
+    border-top: 1px solid #4f4e4e;
+    padding: 1em 0 !important
+}
+
+#footer-about {
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+
+#social {
+    height: 20px;
+    width: 310px;
+    margin: 0 auto 1em auto;
+    text-align: center
+}
+#social li {
+    display: inline-block;
+    margin: 0 9px
+}
+#social li a {
+    font-size: 1.25em;
+    color: #fff;
+    opacity: .6;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out
+}
+
+#social li a:hover,
+#social li a:focus {
+    opacity: 1
 }
