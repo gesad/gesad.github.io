@@ -1,12 +1,13 @@
-# bedford lab research
+# GESAD
 
 ## Build site
 
 To build the website locally, clone the repo with:
 
 ```
-git clone https://github.com/blab/blotter.git
+git clone git@github.com:gesad/gesad.github.io.git
 ```
+
 
 Then install necessary Ruby dependencies by running `bundle install` from within the `blotter` directory.  After this, the site can be be built with:
 
@@ -42,8 +43,8 @@ The `layout`, `title` and `author` tags are required, while `link` and `image` a
 
 ## For more information
 
-* Look over the [metadata format guide](http://bedford.io/guide/format/)
-* Look over the [Markdown style guide](http://bedford.io/guide/style/)
+* Look over the [metadata format guide](https://gesad.github.io/guide/format/)
+* Look over the [Markdown style guide](https://gesad.github.io/guide/style/)
 
 ## License
 

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: GESAD / blog
+title: GESAD / news
 categories: 
- - blog
-category: blog
+ - news
+category: news
 ---
 
 <div class="row">
@@ -11,12 +11,12 @@ category: blog
 		<div class="centered-pills">
 			<ul class="nav nav-pills note">
 				<li role="presentation" class="active">
-					<a class="off" href="/blog/">
+					<a class="off" href="/news/">
 						<i class="fa fa-refresh fa-fw"></i> Timeline
 					</a>
 				</li>
 				<li role="presentation">
-					<a class="off" href="/blog/archive/">
+					<a class="off" href="/news/archive/">
 						<i class="fa fa-list-ul fa-fw"></i> Index
 					</a>
 				</li>
@@ -28,7 +28,7 @@ category: blog
 
 <div class="post-list">
 
-{% for post in site.categories.blog limit: 8 %}
+{% for post in site.categories.news limit: 8 %}
 
 	{% for member in site.categories.team %}
 		{% if member.title == post.author %}
@@ -95,7 +95,7 @@ category: blog
 		<div id="scroll" class="centered-pills">
 			<ul class="nav nav-pills note">
 				<li role="presentation">
-					<a class="off" href="/blog/">
+					<a class="off" href="/news/">
 						<i class="fa fa-chevron-up fa-fw"></i> Back to top
 					</a>
 				</li>				
