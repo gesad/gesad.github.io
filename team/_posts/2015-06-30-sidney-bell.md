@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Sidney Bell
+title: Sidney
 position: PhD student
 handle: sidneymbell
 github: sidneymbell
