@@ -5,7 +5,7 @@ position: Master
 handle: EvilasioJunior
 github: EvilasioJunior
 email: junior.facanha@gmail.com
-cv: http://lattes.cnpq.br/1879682483814917
+cv: ![Evilasio Costa Junior](http://lattes.cnpq.br/1879682483814917)
 image: 10479477_810066492404763_4780781496320513484_n.jpg
 ---
 
