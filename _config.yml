@@ -36,6 +36,6 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 
-# GIthub projects
+# GitHub projects
 projects:
-  - trvrb/coaltrace
+  - lotus-tool/lotus-tool
