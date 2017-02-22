@@ -5,7 +5,7 @@ position: Graduation student
 handle: adsonroberto
 email: adson.uece@gmail.com
 github: AdsonRoberto
-image: /images/team/ADSON.jpg
+image: /images/team/adson-roberto.jpg
 cv:  http://lattes.cnpq.br/9757681953843278
 ---
 
