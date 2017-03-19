@@ -1,35 +1,55 @@
 ---
 layout: default
-title: GESAD / projects
-categories: 
+title: GESAD / Projetos
+categories:
  - projects
 ---
 
-{% for project in site.data.projects %}
-
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
-		<div class="col-md-4 projectbox">
-			<div class="head">
-				<a href="{{ project.url }}" class="off">{{ project.title }}</a>
-			</div>	
-			<div class="smallspacer"></div>
-			<div class="note">
-				<a href="{{ project.url }}" class="off">{{ project.description }}</a>
-			</div>
-			<div class="smallspacer"></div>
-			<div class="smallnote">
-				Updated
-				<a class="off" href="{{ project.commits.first.url }}">
-				{{ project.commits.first.date | date: "%-d %b %Y" }}
-				</a>
-				by
-				<a class="off" href="{{ project.commits.first.author_url }}">				
-				{{ project.commits.first.author_login }}
-				</a>
-			</div>
-			<div class="bigspacer"></div>
-			<div class="spacer"></div>
+<div class="row">
+	<div class="col-md-12">
+		<div class="bigtitle">
+			{{ page.title }}
 		</div>
-    {% cycle 'close rows': nil, nil, '</div>' %}
-{% endfor %}
-{% cycle 'close rows': nil, '</div>', '</div>' %}	
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-2">
+	</div>
+	<div class="col-md-8">
+		<div class="post">
+
+      {% for project in site.data.projects %}
+
+          {% cycle 'add rows': '<div class="row">', nil, nil %}
+      		<div class="col-md-4 projectbox">
+      			<div class="head">
+      				<a href="{{ project.url }}" class="off">{{ project.title }}</a>
+      			</div>
+      			<div class="smallspacer"></div>
+      			<div class="note">
+      				<a href="{{ project.url }}" class="off">{{ project.description }}</a>
+      			</div>
+      			<div class="smallspacer"></div>
+      			<div class="smallnote">
+      				Updated
+      				<a class="off" href="{{ project.commits.first.url }}">
+      				{{ project.commits.first.date | date: "%-d %b %Y" }}
+      				</a>
+      				by
+      				<a class="off" href="{{ project.commits.first.author_url }}">
+      				{{ project.commits.first.author_login }}
+      				</a>
+      			</div>
+      			<div class="bigspacer"></div>
+      			<div class="spacer"></div>
+      		</div>
+          {% cycle 'close rows': nil, nil, '</div>' %}
+      {% endfor %}
+      {% cycle 'close rows': nil, '</div>', '</div>' %}
+
+    </div>
+  </div>
+</div>
