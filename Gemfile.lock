@@ -3,8 +3,19 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
+    bibtex-ruby (4.4.3)
+      latex-decode (~> 0.0)
+    citeproc (1.0.5)
+      namae (~> 0.8)
+    citeproc-ruby (1.1.6)
+      citeproc (>= 1.0.4, < 2.0)
+      csl (~> 1.4)
     colorator (0.1)
     commonjs (0.2.7)
+    csl (1.4.5)
+      namae (~> 0.7)
+    csl-styles (1.0.1.7)
+      csl (~> 1.0)
     css_press (0.3.2)
       csspool-st (= 3.1.2)
       json
@@ -34,10 +45,17 @@ GEM
       multi_js (>= 0.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-scholar (5.9.1)
+      bibtex-ruby (~> 4.0, >= 4.0.13)
+      citeproc-ruby (~> 1.0)
+      csl-styles (~> 1.0)
+      jekyll (~> 3.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     json (2.0.3)
     kramdown (1.13.2)
+    latex-decode (0.2.2)
+      unicode (~> 0.4)
     less (2.6.0)
       commonjs (~> 0.2.7)
     libv8 (3.16.14.17)
@@ -51,6 +69,7 @@ GEM
     multi_js (0.1.0)
       uglifier (~> 2)
     multipart-post (2.0.0)
+    namae (0.11.3)
     netrc (0.11.0)
     octokit (4.6.2)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -71,6 +90,7 @@ GEM
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unicode (0.4.4.2)
 
 PLATFORMS
   ruby
@@ -78,6 +98,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.1.1)
   jekyll-press
+  jekyll-scholar
   kramdown
   less
   netrc
