@@ -1,0 +1,1 @@
+.scroll-pane>.viewport{-fx-background-color:transparent}.list-cell:filled:selected:focused,.list-cell:filled:selected{-fx-background-color:linear-gradient(#328BDB0, #207BCF25%, #1973C975%, #0A65BF100%);-fx-text-fill:white}.list-cell:odd{-fx-background-color:#fff}.list-cell:even{-fx-background-color:#fff}
