@@ -1,1 +1,241 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><title>GESAD / Notícias</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="alternate" type="application/rss+xml" title="GESAD" href="https://gesad.github.io//feed.xml"><link href="/css/style.css" rel="stylesheet" media="screen"><link rel="shortcut icon" href="/images/favicon.png"/> <script>!function(e){var t,a={kitId:"xeu8jut",scriptTimeout:3e3},c=e.documentElement,i=setTimeout(function(){c.className=c.className.replace(/\bwf-loading\b/g,"")+" wf-inactive"},a.scriptTimeout),n=e.createElement("script"),o=!1,s=e.getElementsByTagName("script")[0];c.className+=" wf-loading",n.src="//use.typekit.net/"+a.kitId+".js",n.async=!0,n.onload=n.onreadystatechange=function(){if(t=this.readyState,!(o||t&&"complete"!=t&&"loaded"!=t)){o=!0,clearTimeout(i);try{Typekit.load(a)}catch(e){}}},s.parentNode.insertBefore(n,s)}(document)</script> <script src="/js/jquery.min.js"></script> <script src="/js/transition.js"></script><script src="/js/collapse.js"></script></head><body><div id="header-div"><div id="main-logo-backgroud"><div id="gesad-logo"></div></div><div class="mainnav"><div id="menu-div"><ul class="nav main"><li id="navhome"><a href="/">Início</a></li><li id="navnews"><a href="/news/">Notícias</a></li><li id="navteam"><a href="/team/">Equipe</a></li><li id="navprojects"><a href="/projects/">Ferramentas</a></li><li id="navpapers"><a href="/papers/">Artigos</a></li></ul></div></div></div><div class="container"><div class="row"><div class="col-md-12"><div class="bigtitle"> GESAD / Notícias</div></div></div><div class="bigspacer"></div><div class="row"><div class="col-md-12"><div class="centered-pills"><ul class="nav nav-pills note"><li role="presentation" class="active"> <a class="off" href="/news/"> <i class="fa fa-refresh fa-fw"></i> Timeline </a></li><li role="presentation"> <a class="off" href="/news/archive/"> <i class="fa fa-list-ul fa-fw"></i> Index </a></li></ul></div><div class="bigspacer"></div></div></div><div class="post-list"><div class="blog-post"><div class="row"><div class="col-md-1"></div><div class="col-md-10"><div class="media"><div class="media-body"><div class="title media-heading"> <a href="/news/siv-transmission/" class="off">Dynamics of cross-species transmission in SIV</a></div><p><div class="smallhead"> 23 Jan 2017</div></div></div></div><div class="col-md-1"></div></div><div class="bigspacer"></div><div class="row"><div class="col-md-1"></div><div class="col-md-10"> <img class="offset" src="/images/blog/siv_cst.png"><div class="post"><p>We just <a href="http://biorxiv.org/content/early/2017/01/19/101725">posted a paper to bioRxiv</a> looking at the <a href="/papers/bell-siv-cst/">dynamics of cross-species transmission of SIVs</a> (HIV’s close relatives that infect other species of primates). This was my Epidemiology MS thesis project here in the Bedford lab, and was my first computational project.</p><p>SIVs infect over 45 different species of primates, and HIV emerged as a human pathogen through at least 12 independent transmissions of SIVs from chimpanzees, gorillas, and sooty mangabeys to humans. Individual occurences of SIVs switching hosts have been sporadically documented, but we still had no idea how regularly SIVs switch hosts – i.e., we had no idea whether or not the transmissions that sparked the HIV pandemic were unusual occurences.</p><p>Many of these viruses have been sequenced in recent years. While we weren’t able to study them all, we were able to get enough sequence data (shout out to the fantastic <a href="https://www.hiv.lanl.gov/content/sequence/HIV/mainpage.html">Los Alamos National Labs database</a>) to study the history of SIV cross-species transmission (CST) among 24 different primates. We used this data to assess how frequently viruses from different lineages recombine (part of one genome and part of another genome getting “pasted together”), and to look at how often they’ve switched hosts over evolutionary time. Our phylogenetic analysis found that SIV evolution has been shaped by at least 13 instances of interlineage recombination, and identified 14 novel, ancient CST events. We found that on average, each linaege of SIV switches hosts about once every 6.25 substitutions per site (these are funny units because SIVs are millions of years old, but they essentially mean the amount of evolutionary time required to see 6.25 substitutions in each site of the genome). We also observed more CST events between closely related primates, and find that viruses and hosts have extensively coevolved (and likely cospeciated). Taken together, our results show that SIV biology has been extensively shaped by CST, but it’s still a rare phenomenon over evolutionary time.</p></div></div><div class="col-md-1"></div></div><div class="bigspacer"></div><div class="spacer"></div></div><div class="blog-post"><div class="row"><div class="col-md-1"></div><div class="col-md-10"><div class="media"><div class="media-body"><div class="title media-heading"> <a href="/news/sequencing-lab/" class="off">The Bedford lab becomes a sequencing lab...</a></div><p><div class="smallhead"> 3 Jan 2017</div></div></div></div><div class="col-md-1"></div></div><div class="bigspacer"></div><div class="row"><div class="col-md-1"></div><div class="col-md-10"><div class="post"><p>A couple of months ago I <a href="https://twitter.com/alliblk/status/783459289591533568">tweeted</a> that we had our first Bedford lab wet lab (full disclosure: it’s a bench, but start small right?). Well I’m excited to say that we have just <a href="https://github.com/blab/zika-seq/tree/master/consensus-genomes">released our first bit of Bedford lab-generated sequence data</a> and pushed results to <a href="http://nextstrain.org/zika/">Nextstrain Zika</a>!</p><p>These data are 5 (draft) Zika genomes from clinical samples collected in the U.S. Virgin Islands. After getting some experience sequencing on the MinION <a href="/blog/postcard-from-brazil/">down in Brazil</a>, I spent the first two weeks of December getting amplicons and sequencing on island in St. Croix. The Caribbean in December, it’s rough, I know. This work is in collaboration with the VI Department of Health, who have generously given me access to their samples and let me take over their lab when I’ve been down. As a doctoral student in epidemiology, it’s an incredible opportunity to run a study from start to finish, not to mention investigate an outbreak in close to real-time. I’m really excited about it.</p><p>Importantly this has been a group effort. The fact that we have this data is a huge testament to the benefits of open science. I’m not a wet-lab scientist by training, and Zika is not the easiest virus to sequence. This project could have been really painful, and the fact that it hasn’t been owes a lot to the openness of other groups to share their knowledge, experience, and protocols. I’m so thankful to <a href="https://twitter.com/scalene">Josh Quick</a> and <a href="https://twitter.com/NathanGrubaugh">Nate Grubaugh</a> who were incredibly responsive when I had questions or needed help with the protocol, and <a href="https://twitter.com/pathogenomenick">Nick Loman</a> for freely sharing his entire bioinformatic pipeline. Additionally my lab has been amazing both as a sounding board for ideas and for helping with the data processing and analysis. To have so many people come together to help a project succeed is wonderful, especially so when you’re a student trying to figure things out for the first time. Keep an eye out for more data coming out soon! We’ll keep the <a href="/projects/zika-seq/">zika-seq</a> project updated with new sequences as we generate them.</p><div class="row"><div class="col-md-1"></div><div class="col-md-10"> <img src="/images/blog/usvi_sequencing.jpg"/></div><div class="col-md-1"></div></div></div></div><div class="col-md-1"></div></div><div class="bigspacer"></div><div class="spacer"></div></div></div><div class="infinite-spinner"></div><div class="row"><div class="col-md-12"><div id="scroll" class="centered-pills"><ul class="nav nav-pills note"><li role="presentation"> <a class="off" href="/news/"> <i class="fa fa-chevron-up fa-fw"></i> Back to top </a></li></ul></div></div></div><script async src="/js/infinite-scroll.js"></script></div><div id="footer-div"><div id="footer-logo"></div><div class="row-footer"><ul id="social"><li><a href="#" itle="Facebook"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li><li><a href="#" itle="GitHub"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li><li><a href="#" itle="Twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li><li><a href="#" itle="Instagram"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li></ul><div id="footer-about"><p class="copyright">©2017 GESAD</p><p class="copyright">Created with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/blab/blotter">blotter</a> theme. Designed by <a href="http://www.davimonteiro.com.br/">Davi Monteiro</a></p></div></div> </footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>GESAD / Notícias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" type="application/rss+xml" title="GESAD" href="https://gesad.github.io//feed.xml">
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="/images/favicon.png" />
+    <script>
+        !function (e) { var t, a = { kitId: "xeu8jut", scriptTimeout: 3e3 }, c = e.documentElement, i = setTimeout(function () { c.className = c.className.replace(/\bwf-loading\b/g, "") + " wf-inactive" }, a.scriptTimeout), n = e.createElement("script"), o = !1, s = e.getElementsByTagName("script")[0]; c.className += " wf-loading", n.src = "//use.typekit.net/" + a.kitId + ".js", n.async = !0, n.onload = n.onreadystatechange = function () { if (t = this.readyState, !(o || t && "complete" != t && "loaded" != t)) { o = !0, clearTimeout(i); try { Typekit.load(a) } catch (e) { } } }, s.parentNode.insertBefore(n, s) }(document)
+    </script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/transition.js"></script>
+    <script src="/js/collapse.js"></script>
+</head>
+
+<body>
+    <div id="header-div">
+        <div id="main-logo-backgroud">
+            <div id="gesad-logo"></div>
+        </div>
+        <div class="mainnav">
+            <div id="menu-div">
+                <ul class="nav main">
+                    <li id="navhome"><a href="/">Início</a></li>
+                    <li id="navnews"><a href="/news/">Notícias</a></li>
+                    <li id="navteam"><a href="/team/">Equipe</a></li>
+                    <li id="navprojects"><a href="/projects/">Ferramentas</a></li>
+                    <li id="navpapers"><a href="/papers/">Artigos</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bigtitle"> GESAD / Notícias</div>
+            </div>
+        </div>
+        <div class="bigspacer"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="centered-pills">
+                    <ul class="nav nav-pills note">
+                        <li role="presentation" class="active">
+                            <a class="off" href="/news/"> <i class="fa fa-refresh fa-fw"></i> Timeline </a>
+                        </li>
+                        <li role="presentation">
+                            <a class="off" href="/news/archive/"> <i class="fa fa-list-ul fa-fw"></i> Index </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bigspacer"></div>
+            </div>
+        </div>
+        <div class="post-list">
+            <div class="blog-post">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="title media-heading"> <a href="/news/siv-transmission/" class="off">Dynamics of cross-species transmission in SIV</a></div>
+                                <p>
+                                    <div class="smallhead"> 23 Jan 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="bigspacer"></div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <img class="offset" src="/images/blog/siv_cst.png">
+                        <div class="post">
+                            <p>We just <a href="http://biorxiv.org/content/early/2017/01/19/101725">posted a paper to bioRxiv</a>                                looking at the <a href="/papers/bell-siv-cst/">dynamics of cross-species transmission of SIVs</a>                                (HIV’s close relatives that infect other species of primates). This was my Epidemiology MS
+                                thesis project here in the Bedford lab, and was my first computational project.</p>
+                            <p>SIVs infect over 45 different species of primates, and HIV emerged as a human pathogen through
+                                at least 12 independent transmissions of SIVs from chimpanzees, gorillas, and sooty mangabeys
+                                to humans. Individual occurences of SIVs switching hosts have been sporadically documented,
+                                but we still had no idea how regularly SIVs switch hosts – i.e., we had no idea whether or
+                                not the transmissions that sparked the HIV pandemic were unusual occurences.</p>
+                            <p>Many of these viruses have been sequenced in recent years. While we weren’t able to study them
+                                all, we were able to get enough sequence data (shout out to the fantastic <a href="https://www.hiv.lanl.gov/content/sequence/HIV/mainpage.html">Los Alamos National Labs database</a>)
+                                to study the history of SIV cross-species transmission (CST) among 24 different primates.
+                                We used this data to assess how frequently viruses from different lineages recombine (part
+                                of one genome and part of another genome getting “pasted together”), and to look at how often
+                                they’ve switched hosts over evolutionary time. Our phylogenetic analysis found that SIV evolution
+                                has been shaped by at least 13 instances of interlineage recombination, and identified 14
+                                novel, ancient CST events. We found that on average, each linaege of SIV switches hosts about
+                                once every 6.25 substitutions per site (these are funny units because SIVs are millions of
+                                years old, but they essentially mean the amount of evolutionary time required to see 6.25
+                                substitutions in each site of the genome). We also observed more CST events between closely
+                                related primates, and find that viruses and hosts have extensively coevolved (and likely
+                                cospeciated). Taken together, our results show that SIV biology has been extensively shaped
+                                by CST, but it’s still a rare phenomenon over evolutionary time.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="bigspacer"></div>
+                <div class="spacer"></div>
+            </div>
+            <div class="blog-post">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="title media-heading"> <a href="/news/sequencing-lab/" class="off">The Bedford lab becomes a sequencing lab...</a></div>
+                                <p>
+                                    <div class="smallhead"> 3 Jan 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="bigspacer"></div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="post">
+                            <p>A couple of months ago I <a href="https://twitter.com/alliblk/status/783459289591533568">tweeted</a>                                that we had our first Bedford lab wet lab (full disclosure: it’s a bench, but start small
+                                right?). Well I’m excited to say that we have just <a href="https://github.com/blab/zika-seq/tree/master/consensus-genomes">released our first bit of Bedford lab-generated sequence data</a>                                and pushed results to <a href="http://nextstrain.org/zika/">Nextstrain Zika</a>!</p>
+                            <p>These data are 5 (draft) Zika genomes from clinical samples collected in the U.S. Virgin Islands.
+                                After getting some experience sequencing on the MinION <a href="/blog/postcard-from-brazil/">down in Brazil</a>,
+                                I spent the first two weeks of December getting amplicons and sequencing on island in St.
+                                Croix. The Caribbean in December, it’s rough, I know. This work is in collaboration with
+                                the VI Department of Health, who have generously given me access to their samples and let
+                                me take over their lab when I’ve been down. As a doctoral student in epidemiology, it’s an
+                                incredible opportunity to run a study from start to finish, not to mention investigate an
+                                outbreak in close to real-time. I’m really excited about it.</p>
+                            <p>Importantly this has been a group effort. The fact that we have this data is a huge testament
+                                to the benefits of open science. I’m not a wet-lab scientist by training, and Zika is not
+                                the easiest virus to sequence. This project could have been really painful, and the fact
+                                that it hasn’t been owes a lot to the openness of other groups to share their knowledge,
+                                experience, and protocols. I’m so thankful to <a href="https://twitter.com/scalene">Josh Quick</a>                                and <a href="https://twitter.com/NathanGrubaugh">Nate Grubaugh</a> who were incredibly responsive
+                                when I had questions or needed help with the protocol, and <a href="https://twitter.com/pathogenomenick">Nick Loman</a>                                for freely sharing his entire bioinformatic pipeline. Additionally my lab has been amazing
+                                both as a sounding board for ideas and for helping with the data processing and analysis.
+                                To have so many people come together to help a project succeed is wonderful, especially so
+                                when you’re a student trying to figure things out for the first time. Keep an eye out for
+                                more data coming out soon! We’ll keep the <a href="/projects/zika-seq/">zika-seq</a> project
+                                updated with new sequences as we generate them.</p>
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10"> <img src="/images/blog/usvi_sequencing.jpg" /></div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="bigspacer"></div>
+                <div class="spacer"></div>
+            </div>
+
+
+
+
+            <div class="blog-post">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="media">
+                            <div class="media-body">
+                                <div class="title media-heading"> <a href="/news/defesa-fabiano/" class="off">Segunda defesa de dissertação do GESAD</a></div>
+                                <p>
+                                    <div class="smallhead"> 19 Dez 2016</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="bigspacer"></div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="post">
+                            <p>O aluno de mestrado Fabiano Gadelha defendeu sua dissertação de mestrado intitulada “JustModeling:
+                                uma Abordagem MDE para Desenvolvimento de aplicações Negociais para Android” no dia 16/12/2016.
+                                A banca foi formada pelos professores Paulo Henrique Maia (orientador), Cidcley Teixeira
+                                de souza (IFCE), e Mariela Inés Cortés (UECE).</p>
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10"> <img src="/images/blog/defesa_fabiano1.png" /></div>
+                                <br>
+                                <font color="White">           aaa</font>
+                                <br>
+                                <div class="col-md-17"> <img src="/images/blog/defesa_fabiano2.png" /></div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="bigspacer"></div>
+                <div class="spacer"></div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="infinite-spinner"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="scroll" class="centered-pills">
+                    <ul class="nav nav-pills note">
+                        <li role="presentation">
+                            <a class="off" href="/news/"> <i class="fa fa-chevron-up fa-fw"></i> Back to top </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script async src="/js/infinite-scroll.js"></script>
+    </div>
+    <div id="footer-div">
+        <div id="footer-logo"></div>
+        <div class="row-footer">
+            <ul id="social">
+                <li><a href="#" itle="Facebook"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="#" itle="GitHub"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="#" itle="Twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="#" itle="Instagram"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+            <div id="footer-about">
+                <p class="copyright">©2017 GESAD</p>
+                <p class="copyright">Created with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/blab/blotter">blotter</a>                    theme. Designed by <a href="http://www.davimonteiro.com.br/">Davi Monteiro</a></p>
+            </div>
+        </div>
+        </footer>
+</body>
+
+</html>
