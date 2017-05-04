@@ -19,12 +19,12 @@
          <div class="mainnav">
             <div id="menu-div">
                <ul class="nav main">
-                  <li id="navhome"><a href="/">Home</a></li>
+                  <li id="navhome"><a href="/">Início</a></li>
                   <li id="navwgesad"><a href="/wgesad/">WGESAD</a></li>
-                  <li id="navnews"><a href="/news/">News</a></li>
-                  <li id="navteam"><a href="/team/">Team</a></li>
-                  <li id="navprojects"><a href="/projects/">Projects</a></li>
-                  <li id="navpapers"><a href="/papers/">Papers</a></li>
+                  <li id="navnews"><a href="/news/">Notícias</a></li>
+                  <li id="navteam"><a href="/team/">Equipe</a></li>
+                  <li id="navprojects"><a href="/projects/">Ferramentas</a></li>
+                  <li id="navpapers"><a href="/papers/">Artigos</a></li>
                </ul>
             </div>
          </div>
@@ -34,11 +34,11 @@
             <div class="col-md-12">
                <div class="bigtitle titlebox">
                   <ol class="breadcrumb">
-                     <li>lotus-tool</li>
+                     <li>TCG</li>
                   </ol>
                </div>
                <p>
-               <div class="head"> LoTuS is a tool for graphic behaviour modelling of software using LTS</div>
+               <div class="head">A ferramenta TCG (Test Case Generation) é um plugin para a ferramenta de modelagem LoTuS.</div>
             </div>
          </div>
          <div class="bigspacer"></div>
@@ -115,36 +115,36 @@
             </div>
             <div class="col-md-8">
                <div class="post">
-                  <p>
-                  <h1 id="lotus">LoTuS</h1>
                   <ol>
-                     <li>
-                        <h2 id="about-lotus">About LoTuS</h2>
-                     </li>
+                        <h2 id="about-tcg">Sobre o TCG</h2>
                   </ol>
-                  <p>LoTuS is a open-source tool to graphic behaviour modelling of software using LTS. It aim to make the modelling process easier by providing drag-and-drop drawing tools. Making the learning curve tiny, removing the pré-requisite for modeller learn some formal specification language. This path, the use and learn of formal methods becames more accessible.</p>
+                  <p> O TCG permite a geração e seleção de casos de teste funcionais e estatísticos através de modelos probabilísticos e não probabilísticos. Atualmente a ferramenta TCG possui sete técnicas de geração e cinco técnicas de seleção de casos de teste, as técnicas de geração fornecidas são:</p>
                   <ol>
-                     <li>
-                        <h2 id="dependencies">Dependencies</h2>
-                     </li>
-                  </ol>
-                  <p>LoTuS requires JRE 8 with JavaFX 2.0. Check your java version with:</p>
-                  <p>$ java -version</p>
-                  <p>If needed, install the JRE on your system. If you are using OpenJDK, check if you have OpenFX too.</p>
-                  <ol>
-                     <li>
-                        <h2 id="building">Building</h2>
-                     </li>
-                  </ol>
-                  <p>Use the maven to build the project:</p>
-                  <p>$ mvn clean install</p>
-                  <p>The distributable application will be generated at subdir target/jfx/</p>
-                  <ol>
-                     <li>
-                        <h2 id="more-information">More Information</h2>
-                     </li>
-                  </ol>
-                  <p>More information can be found at the lotus web site: http://jeri.larces.uece.br/lotus</p>
+                        <h2 id="tecnicas">Técnicas de geração</h2>
+                        <ol>
+                                <li><p>All Free-Loop Paths</p></li>
+                               <li> <p>All One-Loop Paths</p></li>
+                               <li> <p>All Paths, All States</p></li>
+                               <li> <p>All Transitions</p></li>
+                              <li> <p>Random Path</p></li>
+                               <li> <p>Random Probabilistic Path</p></li>
+                              <li><p>Shortest Path</p></li>
+                        </ol>
+
+                        <h2 id="tecnicas">Técnicas de seleção</h2>
+                        <ol>
+                                <li><p>Minimum Probability of Path</p></li>
+                               <li> <p>Most Probable Path</p></li>
+                               <li> <p>Similarity of Path</p></li>
+                               <li> <p>Test Purpose</p></li>
+                              <li> <p>Weighted Similarity of Path</p></li>
+                        </ol>
+
+            
+                        <h2 id="more-information">Mais informações</h2>
+                  
+                  <p>A ferramenta possibilita também a combinação de uma das técnicas de geração de casos de teste e de uma técnica de seleção, simultaneamente com o uso da técnica Test Purpose, assim provendo, de maneira prática, diversas possibilidades para o usuário.</p><br>
+                  <div><p>Link para download:<span id="PP_MPS12"><a href="http://jeri.larces.uece.br/lotus/plugins/" target="_blank" ><font color="Blue"> TCG</font></a></span></p></div>
                </div>
             </div>
             <div class="col-md-1"></div>
