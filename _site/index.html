@@ -15,8 +15,14 @@
     <script src="/js/transition.js"></script>
     <script src="/js/collapse.js"></script>
     <style>
-        #banner, #banner-img{
-            padding-left: 125px;
+        a{
+            color: blue;
+        }
+        .center {
+            text-align: center;
+        }
+        .tmid, #banner{
+            margin: 0px auto;
         }
     </style>
 </head>
@@ -42,7 +48,7 @@
     <div class="container">
         <div class="bigspacer"></div>
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <div class="post">
                     <p>Este é o site do Grupo de Engenharia de Software e Sistemas Distribuídos (GESAD) da Universidade Estadual
                         do Ceará (UECE). O grupo é formado por professores pesquisadores, alunos de graduação e mestrado
@@ -97,12 +103,15 @@
                     -->
                 </div>
             </div>
-            <div class="col-md-60">
-                <a id="banner" href="/wgesad" ><img id="banner-img" width="320px" src="/images/wgesad2017-banner.jpeg" /></a>
-                <div class="bigspacer"></div>
-                <span style="padding-left:900px"><b>- Link do evento:</b><span id="PP_MPS12"><a href="/wgesad"  ><font color="Blue"> WGESAD 2017</font></a></span></span>
-                <br>
-                <span style="padding-left:900px"><b>- Cartaz de divulgação:</b><span id="PP_MPS12"><a href="/images/wgesad2017-banner.jpeg" target="_blank" ><font color="Blue"> CARTAZ</font></a></span></span>
+            <div class="col-md-3">
+                <div class="center tmid">
+                    <a href="/wgesad" ><img class="tmid" width="320px" src="/images/wgesad2017-banner.jpeg" /></a>
+                    <div class="bigspacer"></div>
+                    <ul class="tmid">
+                        <li><strong>Link do evento:</strong><a href="/wgesad"> WGESAD 2017</a></li>
+                        <li><strong>Cartaz de divulgação:</strong><a href="/images/wgesad2017-banner.jpeg"> CARTAZ</a></li>
+                    </ul>
+                </div>  
             </div>
         </div>
     </div>
